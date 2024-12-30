@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+      window._AMapSecurityConfig = {
+        securityJsCode: "cabe9d189fb47286fc6cacef1e9d08b8",
+      };
+    </script>
+    <script src="https://unpkg.com/mapvgl/dist/mapvgl.min.js"></script>
+    <!-- 如果使用到Three.js相关的图层需要引用 -->
+    <script src="https://unpkg.com/mapvgl/dist/mapvgl.threelayers.min.js"></script>
+    <!-- 加载地图JSAPI脚本 -->
+    <script
+      type="text/javascript"
+      src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=8x4eW3fckP07GQRLQ7qmifb22wTjAAfd"
+    ></script>
+    <title>百度地图</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
